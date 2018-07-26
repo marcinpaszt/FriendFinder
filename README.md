@@ -1,1 +1,1 @@
-# FriendFinder
+Friend Finder is matching-type application that uses Bootstrap on the front end and Node.js and express on the back end. The application includes 10 uestions to which a user can respond to with 5 predetermined answers, ranging from 1 (Strongly agree) to 5(Strongly disagree). When the user inputs his answers and clicks on "Submit", they are then presented with the closest match to his preferences.

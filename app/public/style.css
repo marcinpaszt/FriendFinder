@@ -1,0 +1,14 @@
+body {
+    height:100%;
+}
+
+form{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px
+}
+
+.btn.btn-primary{
+    margin-left: 300px;
+    margin-bottom: -50px;
+}

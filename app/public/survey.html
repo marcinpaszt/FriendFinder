@@ -1,0 +1,241 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Friend Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+            crossorigin="anonymous">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <h1>
+                    <img src="images/friendFinder2.png" width="70" height="70" class="d-inline-block align-top" alt="Friend Finder"> Friend Finder!</h1>
+            </a>
+        </nav>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name (Required)</label>
+                <input type="name" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Enter your name">
+                <small id="nameHelp" class="form-text text-muted"></small>
+            </div>
+            <div class="form-group">
+                <label for="photoImage">Link to Photo Image (Required)</label>
+                <input type="photoImage" class="form-control" id="inputPhoto" placeholder="Enter a link to your photo">
+            </div>
+            <h5>
+                <strong>Question 1</strong>
+            </h5>
+            <p>I am very outgoing and the life of the party</p>
+            <select data-placeholder="" class="browser-default" id="q1">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 2</strong>
+            </h5>
+            <p>On a Friday night, I would rather stay home than go out.</p>
+            <select data-placeholder="" class="browser-default" id="q2">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 3</strong>
+            </h5>
+            <p>In the future, I want to live in the city.</p>
+            <select data-placeholder="" class="browser-default" id="q3">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 4</strong>
+            </h5>
+            <p>Money doesn't buy happiness.</p>
+            <select data-placeholder="" class="browser-default" id="q4">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 5</strong>
+            </h5>
+            <p>Traveling is a great experience.</p>
+            <select data-placeholder="" class="browser-default" id="q5">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 6</strong>
+            </h5>
+            <p>I like to go to concerts</p>
+            <select data-placeholder="" class="browser-default" id="q6">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 7</strong>
+            </h5>
+            <p>I could drive in a car for hours and not get bored</p>
+            <select data-placeholder="" class="browser-default" id="q7">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 8</strong>
+            </h5>
+            <p>When I want to watch vampire movies, Twilight is NOT one of them</p>
+            <select data-placeholder="" class="browser-default" id="q8">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 9</strong>
+            </h5>
+            <p>I likt to play sports but not watch them</p>
+            <select data-placeholder="" class="browser-default" id="q9">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h5>
+                <strong>Question 10</strong>
+            </h5>
+            <p>Machines will eventually take over the world</p>
+            <select data-placeholder="" class="browser-default" id="q10">
+                <option value="">Choose an option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </form>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+        <div id="results-modal" class="modal fade" role="dialog" tabindex="-1">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <h2 class="modal-title">
+                            <strong>Your new best friend is...</strong>
+                        </h2>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="match-name"></h2>
+                        <img id="match-img" alt="Best Match Image" class="" width="100%" src="">
+                    </div>
+                    <div class="modal-footer">
+                        <a href="/survey" class="btn btn-default">Try to match again!</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            $('#submit').on('click', function () {
+                event.preventDefault();
+                var nameAnswer = $("#userName").val().trim();
+                var imageAnswer = $("#userName").val().trim();
+                var q1Answer = $("#q1").val().trim();
+                var q2Answer = $("#q2").val().trim();
+                var q3Answer = $("#q3").val().trim();
+                var q4Answer = $("#q4").val().trim();
+                var q5Answer = $("#q5").val().trim();
+                var q6Answer = $("#q6").val().trim();
+                var q7Answer = $("#q7").val().trim();
+                var q8Answer = $("#q8").val().trim();
+                var q9Answer = $("#q9").val().trim();
+                var q10Answer = $("#q10").val().trim();
+
+                if (nameAnswer === "" || imageAnswer === "" || q1Answer === "" || q2Answer === "" || q3Answer === "" || q4Answer === "" || q5Answer === "" ||
+                    q6Answer === "" || q7Answer === "" || q8Answer === "" || q9Answer === "" || q10Answer === "") {
+                    BootstrapDialog.show({
+                        title: "Alert!",
+                        message: "Please fill in all fields!"
+                    });
+                    return;
+                }
+                else {
+
+                    var input = {
+                        name: $("#userName").val(),
+                        photo: $("#userPhoto").val(),
+                        scores: [
+                            $('#q1').val().trim(),
+                            $('#q2').val().trim(),
+                            $('#q3').val().trim(),
+                            $('#q4').val().trim(),
+                            $('#q5').val().trim(),
+                            $('#q6').val().trim(),
+                            $('#q7').val().trim(),
+                            $('#q8').val().trim(),
+                            $('#q9').val().trim(),
+                            $('#q10').val().trim(),
+                        ]
+                    };
+                    $.post("api/friends", userData, function (data) {
+                        $("#match-name").text(data.matchName);
+                        $("#match-img").attr("src", data.matchImg);
+                        $("#results-modal".modal("show"));
+                    });
+                }
+            });
+        </script>
+
+    </body>
+
+    </html>
